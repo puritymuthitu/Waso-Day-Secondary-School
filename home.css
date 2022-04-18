@@ -13,10 +13,10 @@ body{
    background-color: #fe4a49;
 }
 
-.container h1{
+ h1{
     float: left;
     margin-left: 10%;
-    color: white;
+    color: black;
 }
 
 .container ul{ 
@@ -30,3 +30,16 @@ body{
     float: left;
     padding: 0 20px 0 20px;
 }
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+.current a::after{
+    content: '_';
+    background-color: white;
+    font-size: 4px;
+    display: block;
+
+}
+
