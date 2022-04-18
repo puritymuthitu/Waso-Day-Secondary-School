@@ -42,4 +42,11 @@ body{
     display: block;
 
 }
-
+.image-1 {
+    position:fixed;
+    top: 10px;
+    right: 20%;
+    margin: 20px 10px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
