@@ -1,6 +1,6 @@
 *{
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,13 +13,7 @@ body{
    background-color: #fe4a49;
 }
 
- h1{
-    float: left;
-    margin-left: 10%;
-    color: black;
-}
-
-.container ul{ 
+ .container ul{ 
     list-style-type: none;
     font-size: 20px;
     margin-left: 0%;;
@@ -41,4 +35,9 @@ body{
     font-size: 4px;
     display: block;
 
+}
+label, input, textarea{
+    display: block;
+    padding:10px;
+    margin:10px;
 }
