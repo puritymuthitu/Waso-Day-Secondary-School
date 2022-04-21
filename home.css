@@ -17,8 +17,15 @@ body{
     float: left;
     margin-left: 10%;
     color: black;
+   margin-top: 2%;
+   font-size: 4rem;
 }
-
+.motto{
+    padding: 0 20px 0 20px;
+   font-size: 2rem; 
+   float: left;
+   color:green;
+}
 .container ul{ 
     list-style-type: none;
     font-size: 20px;
@@ -42,11 +49,30 @@ body{
     display: block;
 
 }
-.image-1 {
-    position:fixed;
-    top: 10px;
-    right: 20%;
-    margin: 20px 10px;
-    padding: 0px 10px 0px 10px;
-    border-radius: 10px;
+
+.wrapper{
+    position: relative;
 }
+
+.homephoto{
+    background-color: white;
+        position: absolute;
+        top: 180%;
+        right: 10%;
+        bottom: 10%;
+        left: 10%;
+
+    
+    }
+
+    .aboutschool{
+        margin-top: 8%;
+        padding: 0 20px 0 20px;
+    }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
