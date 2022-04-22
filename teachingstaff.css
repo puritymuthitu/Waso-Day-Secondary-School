@@ -23,14 +23,13 @@ body{
     list-style-type: none;
     font-size: 20px;
     margin: 0;
-    float: right;
     padding-right: 42px;
 }
 
 .container li{
     margin-top: 10px;
     float: left;
-    padding: 0 20px 0 20px;
+    padding: 0 45px 0 45px;
 }
 
 
