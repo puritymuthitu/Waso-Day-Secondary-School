@@ -40,4 +40,10 @@ label, input, textarea{
     display: block;
     padding:10px;
     margin:10px;
+    align-items: center;
+}
+
+.submit{
+    padding:10px;
+    margin:10px;
 }
