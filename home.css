@@ -57,19 +57,20 @@ body{
 .homephoto{
     background-color: white;
         position: absolute;
-        margin-top: 180%;
-        right: 10%;
-        bottom: 10%;
-        left: 50%;
-
-    
+        
     }}
 
     .aboutschool{
         margin-top: 8%;
         padding: 0 20px 0 20px;
     }
-
+.homephoto {
+    margin-top: 0%;
+        right: 10%;
+        bottom: 10%;
+        left: 10%;
+        padding: 0px 20px 0px 20px;
+}
 
 
 
