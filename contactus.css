@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-   padding: 20px; 
+   padding: 10px; 
    overflow:hidden;
    background-color: #fe4a49;
 }
@@ -16,7 +16,10 @@ body{
  .container ul{ 
     list-style-type: none;
     font-size: 20px;
-    margin-left: 0%;;
+    margin: 0;
+    float: right;
+    padding-right: 42px;
+  
 }
 
 .container li{
@@ -90,4 +93,10 @@ body{
     border-radius: 30px;
   }
   
+
+  .logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
   

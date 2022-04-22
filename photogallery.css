@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-   padding: 20px; 
+   padding: 10px; 
    overflow:hidden;
    background-color: #fe4a49;
 }
@@ -22,7 +22,9 @@ body{
 .container ul{ 
     list-style-type: none;
     font-size: 20px;
-    margin-left: 0%;;
+    margin: 0;
+    float: right;
+    padding-right: 42px;
 }
 
 .container li{
@@ -89,6 +91,13 @@ box-shadow:0 32px 75px rgba(68,77,136,0.2);
     color: white;
     cursor: pointer;
 }
+
+.logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
 
 
 
