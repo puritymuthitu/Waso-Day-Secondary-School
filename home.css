@@ -38,6 +38,9 @@ body{
     float: left;
     padding: 0 20px 0 20px;
 }
+.container li:hover{
+    background-color: aquamarine;
+}
 
 .container a {
     text-decoration: none;
