@@ -70,6 +70,7 @@ body{
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
+   
 
     
 }
@@ -86,15 +87,24 @@ body{
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
+   
 
     
 }
 
 h2{
-    align-items: center;
-    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 0%;
+    margin-top: 2%;
 }
 
 h3{
     color:brown;
+}
+
+
+#image-round{
+    border-radius: 100%;
+    align-items: center;
 }
