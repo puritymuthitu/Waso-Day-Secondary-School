@@ -7,6 +7,7 @@ body{
    background-color: #e6e6ea;
 }
 
+
 .container{
    padding: 10px; 
    overflow:hidden;
@@ -15,25 +16,33 @@ body{
 
  h1{
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
     color: black;
-}
+   margin-top: 2%;
+   font-size: 4rem;
 
+}
+.motto{
+    padding: 0 20px 0 20px;
+   font-size: 2rem; 
+   float: left;
+   color:green;
+}
 .container ul{ 
     list-style-type: none;
     font-size: 20px;
     margin: 0;
     padding-right: 42px;
-}
-
-.container li:hover{
-    background-color: aquamarine;
+   
 }
 
 .container li{
     margin-top: 10px;
     float: left;
-    padding: 0 45px 0 45px;
+    padding: 0 65px 0 65px;
+}
+.container li:hover{
+    background-color: aquamarine;
 }
 
 .container a {
@@ -48,9 +57,31 @@ body{
 
 }
 
+.wrapper{
+    position: relative;
+}
+    .aboutschool{
+        margin-top: 8%;
+        padding: 0 20px 0 20px;
+    }
+.homephoto {
+    width:90%;
+    margin-top: 0%;
+        right: 10%;
+        margin-bottom: 5%;
+        left: 10%;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
 
 .logo{
     height: 48px;
     float: left;
     margin: 16px 48px;
 }
+
+
+
+
