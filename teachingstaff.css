@@ -54,3 +54,47 @@ body{
     margin: 16px 48px;
 }
 
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8 {
+    background: whitesmoke;
+}
+
+.photo1 div{
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.photo1{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
+    column-gap: 10px;
+    row-gap: 15px;
+
+    
+}
+
+.photo2 div{
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.photo2{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
+    column-gap: 10px;
+    row-gap: 15px;
+
+    
+}
+
+h2{
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color:brown;
+}
