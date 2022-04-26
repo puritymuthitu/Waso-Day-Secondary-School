@@ -13,3 +13,17 @@ ul{
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif; 
 }
+table
+th,
+td {
+    border:solid 1px;
+
+}
+.table{
+    padding: 10px;  
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
