@@ -61,7 +61,12 @@ body{
 .photo1 div{
     margin-top: 10%;
     padding: 30px;
+    background-color: wheat;
+    border-radius: 30%;
+    
+   
 }
+
 
 .photo1{
     padding: 30px;
@@ -70,14 +75,17 @@ body{
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
-   
-
-    
+  
 }
 
 .photo2 div{
     margin-top: 10%;
     padding: 30px;
+    background-color: wheat;
+    border-radius: 30%;
+ 
+  
+
 }
 
 .photo2{
@@ -87,6 +95,7 @@ body{
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
+    
    
 
     
@@ -96,15 +105,25 @@ h2{
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 0%;
-    margin-top: 2%;
+    margin-top: 5%;
+    display: flex;
+    
+    
 }
 
 h3{
     color:brown;
+    display: flex;
+    
+    
 }
 
 
 #image-round{
     border-radius: 100%;
-    align-items: center;
+
+}
+
+.bottom{
+    margin-left: 10%;
 }

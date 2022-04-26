@@ -59,13 +59,16 @@ body{
 }
 
 .departments div{
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 30px;
+    background-color: wheat;
+    border-radius: 30%;
 }
 
 .departments{
+    padding: 30px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px,1fr));
+    grid-template-columns: repeat(2, minmax(200px,1fr));
     grid-template-rows:repeat(auto-fit, minmax(200px,1fr)); 
     column-gap: 10px;
     row-gap: 15px;
@@ -75,8 +78,18 @@ body{
 
 h4{
     padding: 20px;
+    margin-top: 5%;
 }
 
 h3{
     color:brown;
+}
+
+#image-round{
+    border-radius: 100%;
+    align-items: center;
+}
+
+.bottom{
+    margin-left: 10%;
 }
