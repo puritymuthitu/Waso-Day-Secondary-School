@@ -48,7 +48,7 @@ body{
 }
 
 .img-gallery{
-    width: 80%;
+    width: 60%;
     margin: 100px auto 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, mimmax(250px, 1fr));
@@ -56,7 +56,7 @@ body{
 }
 
 .img-gallery img{
-  width: 100%;  
+  width: 80%;  
   cursor:pointer;
 }
 
